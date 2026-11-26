@@ -1,6 +1,6 @@
 # Review Insights: a Snowflake data pipeline for Spotify app reviews
 
-A hackathon project built while learning Snowflake: load about 61k Spotify app reviews from a raw CSV into Snowflake, profile and clean them with SQL, and prepare them for AI analysis.
+A project built while learning Snowflake: load about 61k Spotify app reviews from a raw CSV into Snowflake, profile and clean them with SQL, and prepare them for AI analysis.
 
 ```
 CSV file -> Stage -> RAW table -> CLEAN view -> (AI enrichment: blocked on trial) -> dashboard (planned)
